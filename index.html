@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="NOXEN — independent streetwear, designed in Sri Lanka.">
+  <title>NOXEN — Wear Your Identity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"><span>INDEPENDENT STREETWEAR · SRI LANKA</span><span>ISLANDWIDE DELIVERY 🇱🇰</span></div>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="NOXEN home">NOXEN<span>®</span></a>
+    <nav class="nav" id="nav">
+      <a href="#shop">SHOP</a><a href="#about">THE NOXEN CODE</a><a href="#contact">CONTACT</a>
+    </nav>
+    <div class="head-actions">
+      <button class="text-icon" id="search-toggle" aria-label="Search products">SEARCH <span>⌕</span></button>
+      <button class="text-icon" id="bag-open" aria-label="Open shopping bag">BAG <span class="count" id="bag-count">0</span></button>
+      <button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-bg"></div><div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="overline"><i></i> NOXEN / DROP 001</div>
+        <h1>NOT MADE<br>TO <em>BLEND.</em></h1>
+        <p>Everyday essentials for those who make their own rules. Designed for self-expression. Made to move with you.</p>
+        <a class="btn btn-white" href="#shop">DISCOVER THE DROP <span>↗</span></a>
+      </div>
+      <div class="hero-bottom"><span>01 — 03</span><span>COLOMBO · SRI LANKA</span><span>SCROLL TO EXPLORE ↓</span></div>
+      <div class="vertical-note">WEAR YOUR IDENTITY — NOXEN®</div>
+    </section>
+
+    <section class="ticker" aria-label="Brand statement"><div>NO RULES. YOUR STYLE. <b>✳</b> BUILT DIFFERENT. <b>✳</b> MADE TO MOVE. <b>✳</b> NO RULES. YOUR STYLE. <b>✳</b></div></section>
+
+    <section class="shop section" id="shop">
+      <div class="section-top">
+        <div><div class="eyebrow">THE FIRST DROP / 2026</div><h2>FIND YOUR<br><span>FORM.</span></h2></div>
+        <p class="section-intro">A tight edit of everyday pieces.<br>Choose your fit. Make it yours.</p>
+      </div>
+      <div class="shop-tools">
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all">ALL <small>06</small></button>
+          <button class="filter" data-filter="tops">TOPS</button>
+          <button class="filter" data-filter="bottoms">BOTTOMS</button>
+          <button class="filter" data-filter="accessories">ACCESSORIES</button>
+        </div>
+        <div class="tool-right">
+          <label class="sr-only" for="sort">Sort products</label>
+          <select id="sort" class="sort"><option value="featured">FEATURED</option><option value="low">PRICE: LOW TO HIGH</option><option value="high">PRICE: HIGH TO LOW</option></select>
+          <span id="result-count">06 PIECES</span>
+        </div>
+      </div>
+      <div class="search-bar" id="search-bar"><input id="search-input" type="search" placeholder="Search NOXEN pieces..." aria-label="Search products"><button id="search-close" aria-label="Close search">✕</button></div>
+      <div class="products" id="products"></div>
+      <p class="local-note"><span>🇱🇰</span> PROUDLY SERVING SRI LANKA · ISLANDWIDE DELIVERY</p>
+    </section>
+
+    <section class="feature">
+      <div class="feature-image"></div>
+      <div class="feature-content"><div class="eyebrow">THE NOXEN MINDSET</div><h2>BE<br>YOUR<br><em>OWN</em><br>ORIGINAL.</h2><p>Trends come and go. Identity stays. NOXEN is for the ones who choose their own direction.</p><a class="line-link" href="#about">GET TO KNOW US ↗</a></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-aside"><div class="eyebrow">01 / THE IDEA</div><span>INDEPENDENT BY DESIGN.</span></div>
+      <div class="about-copy"><div class="eyebrow">A BRAND WITH A POINT OF VIEW</div><h2>LESS FOLLOWING.<br><span>MORE BEING.</span></h2><p>NOXEN is an independent clothing label founded by <strong>Chiran Jeewantha</strong> in Sri Lanka. Built around individuality, confidence and considered design, NOXEN makes everyday clothing for people who don't need to fit a mould.</p><div class="founder">CHIRAN JEEWANTHA <small>FOUNDER — NOXEN</small></div></div>
+    </section>
+
+    <section class="service-row">
+      <div><span class="service-icon">01</span><h3>ISLANDWIDE DELIVERY</h3><p>Delivery across Sri Lanka.</p></div>
+      <div><span class="service-icon">02</span><h3>WHATSAPP ORDERING</h3><p>Simple, direct order enquiries.</p></div>
+      <div><span class="service-icon">03</span><h3>MADE FOR EVERY DAY</h3><p>Easy pieces. Personal style.</p></div>
+    </section>
+
+    <section class="contact section" id="contact"><div class="eyebrow">HAVE A QUESTION?</div><h2>LET'S<br><span>TALK.</span></h2><p>For sizing, delivery and order enquiries, message the NOXEN team on WhatsApp.</p><a class="btn btn-dark" id="contact-whatsapp" href="#" target="_blank" rel="noopener">CHAT WITH NOXEN ON WHATSAPP ↗</a></section>
+  </main>
+
+  <footer><div class="footer-main"><a class="logo footer-logo" href="#home">NOXEN<span>®</span></a><p>WEAR YOUR IDENTITY.</p><a href="#home" class="line-link">BACK TO TOP ↑</a></div><div class="footer-bottom"><span>© 2026 NOXEN. ALL RIGHTS RESERVED.</span><span>FOUNDED BY CHIRAN JEEWANTHA · SRI LANKA</span><span>INDEPENDENT BY DESIGN.</span></div></footer>
+
+  <div class="drawer-layer" id="drawer-layer" aria-hidden="true">
+    <button class="scrim" id="drawer-close" aria-label="Close bag"></button>
+    <aside class="drawer">
+      <div class="drawer-head"><div><div class="eyebrow">YOUR SELECTION</div><h2>THE BAG <span id="drawer-count">0</span></h2></div><button id="drawer-x" aria-label="Close bag">✕</button></div>
+      <div class="bag-items" id="bag-items"><div class="empty">Your bag is waiting for something good.</div></div>
+      <div class="drawer-bottom"><div class="subtotal"><span>SUBTOTAL</span><strong id="subtotal">LKR 0</strong></div><p>Delivery fee will be confirmed on WhatsApp.</p><button class="btn btn-dark full" id="order-open">ORDER VIA WHATSAPP ↗</button><small>Orders are confirmed directly with the NOXEN team.</small></div>
+    </aside>
+  </div>
+
+  <div class="modal-layer" id="product-layer" aria-hidden="true">
+    <button class="modal-scrim" data-close-product aria-label="Close product"></button>
+    <section class="product-modal" role="dialog" aria-modal="true" aria-label="Product details">
+      <button class="modal-close" data-close-product aria-label="Close">✕</button><img id="detail-image" src="" alt="">
+      <div class="detail"><div class="eyebrow">NOXEN / DROP 001</div><h2 id="detail-name"></h2><strong id="detail-price"></strong><p id="detail-description"></p><label>SELECT COLOUR</label><div class="color-options" id="detail-colors" aria-label="Choose product colour"></div><p class="selected-colour" id="selected-colour">BLACK</p><label for="detail-size">SELECT SIZE</label><div class="size-options" id="size-options"><button data-size="S">S</button><button data-size="M" class="chosen">M</button><button data-size="L">L</button><button data-size="XL">XL</button></div><button class="btn btn-dark full" id="add-bag">ADD TO BAG +</button><small class="detail-hint">Need sizing help? Ask us on WhatsApp.</small></div>
+    </section>
+  </div>
+
+  <div class="modal-layer" id="order-layer" aria-hidden="true">
+    <button class="modal-scrim" data-close-order aria-label="Close order form"></button>
+    <section class="order-modal" role="dialog" aria-modal="true" aria-labelledby="order-title">
+      <button class="modal-close" data-close-order aria-label="Close">✕</button>
+      <div class="eyebrow">SRI LANKA · WHATSAPP CHECKOUT</div><h2 id="order-title">YOUR DETAILS.</h2><p class="order-lead">Add your delivery details. We'll prepare your order message for WhatsApp so the NOXEN team can confirm availability, delivery and payment.</p>
+      <form id="order-form">
+        <label for="customer-name">FULL NAME</label><input id="customer-name" name="name" autocomplete="name" required placeholder="Your name">
+        <label for="customer-phone">PHONE NUMBER</label><input id="customer-phone" name="phone" type="tel" autocomplete="tel" required placeholder="07X XXX XXXX">
+        <label for="customer-district">DISTRICT</label><select id="customer-district" name="district" required><option value="">Select your district</option><option>Ampara</option><option>Anuradhapura</option><option>Badulla</option><option>Batticaloa</option><option>Colombo</option><option>Galle</option><option>Gampaha</option><option>Hambantota</option><option>Jaffna</option><option>Kalutara</option><option>Kandy</option><option>Kegalle</option><option>Kilinochchi</option><option>Kurunegala</option><option Mannar</option><option>Matale</option><option>Matara</option><option>Monaragala</option><option>Mullaitivu</option><option>Nuwara Eliya</option><option>Polonnaruwa</option><option>Puttalam</option><option>Ratnapura</option><option>Trincomalee</option><option>Vavuniya</option></select>
+        <label for="customer-address">DELIVERY ADDRESS</label><textarea id="customer-address" name="address" rows="3" required placeholder="House number, street, town"></textarea>
+        <label for="customer-note">ORDER NOTE <span>(OPTIONAL)</span></label><textarea id="customer-note" name="note" rows="2" placeholder="Colour preference or delivery instructions"></textarea>
+        <div class="order-total"><span>ESTIMATED ITEM TOTAL</span><strong id="order-total">LKR 0</strong></div>
+        <button class="btn btn-dark full" type="submit">SEND ORDER TO WHATSAPP ↗</button>
+        <small class="privacy-note">Your WhatsApp app will open with your order details. No payment is taken on this website.</small>
+      </form>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
